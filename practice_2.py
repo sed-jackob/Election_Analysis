@@ -1,24 +1,33 @@
-# Dictionary example
-aPerson = {
-    "Name":"Saeed",
-    "Age":47,
-    "Job":"Business Analyst",
-    "City":"Calgary"}
-aPerson["Name"]="Omar"
-print(aPerson["Name"])
-aPerson
-aPerson["Name"]="Saeed"
+# Loop example
 
-# Loop example game
-myList = [1,2,3,4,7,8]
-n = "yes"
+myFamily = [
+    {
+         "Name":"Saeed",
+         "Age":47,
+         "Job":"Business Analyst",
+         "City":"Calgary"
+         },
+    {
+         "Name":"Joudi",
+         "Age":41,
+         "Job":"Banker",
+         "City":"Calgary"
+         },
+    {
+         "Name":"Salma",
+         "Age":14,
+         "Job":"Student",
+         "City":"Calgary"
+         }
+    ]
 
-while n == "yes":
-    x = int(input("Please enter a number: "))
-    if x in myList:
-        print("YES... in the list.")
-    else:
-        print("Sorry! Not in the list.")
-    n = input("Do you want to play again? ")
+'''
+i = 0
+for items in aPerson.items():
+    print(items)
 
-print("Thank you for playing!")
+for anyName, anyName2 in aPerson.items():
+    print(anyName, " : ",anyName2)
+'''
+for member in myFamily:
+     print(member["Age"])
