@@ -11,7 +11,7 @@ The board will provide a text file (csv) with election's data which we will proc
 
 ### Resources
 - Data Source: ***Resources\election_results.csv***
-- Output File: ***Analysis\election_analysis.txt***
+- Output File: ***Analysis\election_results.txt***
 - Software: *Python 3.6.1, Spyder 4.2.3*
 ## Election Audit Results
 The analysis of the election show that:
@@ -28,7 +28,7 @@ The analysis of the election show that:
 - The winner of the election was: 
   - *Diana DeGette*, who received **73.8%** of the vote and **272,892** number of votes.
 
-Charts below visually illustrates the results:
+Charts below visually illustrate results:
 
 ## Election Audit Summary
 This script can be modified to work for any state election. Below are two modifications that can be implemented:

@@ -8,7 +8,7 @@ import os
 # Add a variable to load a file from a path.
 file_to_load = os.path.join("Resources", "election_results.csv")
 # Add a variable to save the file to a path.
-file_to_save = os.path.join("Analysis", "election_analysis.txt")
+file_to_save = os.path.join("Analysis", "election_results.txt")
 # Create analysis folder if doesn't already exist
 if not os.path.exists("Analysis"):
     os.mkdir("Analysis")
