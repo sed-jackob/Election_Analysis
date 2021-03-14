@@ -30,6 +30,10 @@ The analysis of the election show that:
 
 Charts below visually illustrate results:
 
+![Results by Candidate](./Resources/results_by_candidate.png)
+
+![Results by County](./Resources/results_by_county.png)
+
 ## Election Audit Summary
 This script can be modified to work for any state election. Below are two modifications that can be implemented:
 1. Prompt user to enter the state's name to be analyzed:
@@ -45,5 +49,3 @@ This script can be modified to work for any state election. Below are two modifi
         - *file_to_write = selected_state + ".txt"*
         - *file_to_write_path = join path for "Analysis" and file_to_write*
         - *Write to text file*
-            
-
