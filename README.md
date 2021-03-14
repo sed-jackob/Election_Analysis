@@ -35,6 +35,15 @@ This script can be modified to work for any state election. Below are two modifi
 1. Prompt user to enter the state's name to be analyzed:
     - There must be a seperate *csv* file for each state's election data in the *Resources* folder
     - Below is pseudocode for this:
-        - state_to_analyze = input_from_user + ".csv"
-        - file_to_load = join path for "Resources" and state_to_analyze
+        - *selected_state = input_from_user*
+        - *file_to_read = selected_state + ".csv"*
+        - *file_to_read_path = join path for "Resources" and file_to_read*
+        - *Open and process file*
+2. Write results to a text file for the state selected to analyze:
+    - Below is pseudocode for this:
+        - *selected_state = input_from_user*
+        - *file_to_write = selected_state + ".txt"*
+        - *file_to_write_path = join path for "Analysis" and file_to_write*
+        - *Write to text file*
+            
 
