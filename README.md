@@ -32,5 +32,9 @@ Charts below visually illustrate results:
 
 ## Election Audit Summary
 This script can be modified to work for any state election. Below are two modifications that can be implemented:
-1. Prompt user to enter the state's name to be analyzed. The script will then open and process the required state (provided that the data for that state is available in the Resources folder as *"state_name.csv"*) then write results to a text file named *"state_name_results.txt"*
-2. 
+1. Prompt user to enter the state's name to be analyzed:
+    - There must be a seperate *csv* file for each state's election data in the *Resources* folder
+    - Below is pseudocode for this:
+        - state_to_analyze = input_from_user + ".csv"
+        - file_to_load = join path for "Resources" and state_to_analyze
+
