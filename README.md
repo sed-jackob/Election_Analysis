@@ -53,4 +53,4 @@ This script can be modified to work for any state election. Below are two modifi
 ---
 
 
-![Saeed Al-Yacoubi](../stock-analsis/Resources/qr-code.png)
+![Saeed Al-Yacoubi](../Resources/qr-code.png)
