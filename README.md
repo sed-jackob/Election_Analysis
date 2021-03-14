@@ -49,3 +49,8 @@ This script can be modified to work for any state election. Below are two modifi
         - *file_to_write = selected_state + ".txt"*
         - *file_to_write_path = join path for "Analysis" and file_to_write*
         - *Write to text file*
+
+---
+
+
+![Saeed Al-Yacoubi](../stock-analsis/Resources/qr-code.png)
